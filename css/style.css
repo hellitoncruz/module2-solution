@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px ;
+    padding-bottom: 70px;
+}
+
+div .head {
+    float: right;
+    border: 1px black solid;
+    width: 31%;
+    
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    padding: 40px 20px 10px 10px;
+}
+
+.um, .dois, .tres{
+    border: 1px black  solid;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    background: rgb(184, 181, 181);
+}
+
+div .head.um{
+    background: blueviolet;
+}
+
+div .head.dois{
+    background: greenyellow;
+}
+
+div .head.tres{
+    background: rgb(216, 33, 9);
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .container {
+        font-size: 24px;
+    }
+
+    .um, .dois {
+        align-items: center;
+        justify-content: center;
+        width: 46%;
+        margin-left:2.5%;
+    }
+    
+    .tres {
+        float: left;
+        width: 94.5%;
+        margin-top: 25px;
+        margin-left: 2.5%;
+        margin-bottom: 20px;
+    }
+
+    div .head {
+        padding: 10px;
+    }
+
+    p {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+    h1{
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        font-size: 24px;
+    }
+
+    .um, .dois, .tres {
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 3% 10% 3% 10% ;
+    }
+
+    div .head {
+        padding: 10px;
+        width: 45%;
+    }
+
+    p {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    
+    }
+}
